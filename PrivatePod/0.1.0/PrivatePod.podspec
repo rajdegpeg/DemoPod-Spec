@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint MyCocoapodsLibrary.podspec' to ensure this is a
+# Be sure to run `pod lib lint PrivatePod.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyCocoapodsLibrary'
+  s.name             = 'PrivatePod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MyCocoapodsLibrary.'
+  s.summary          = 'A short description of PrivatePod.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,25 +21,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/rajdegpeg/MyCocoapodsLibrary'
+  s.homepage         = 'https://github.com/rajdegpeg/PrivatePod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Raj Kadam' => 'rajendra.kadam@degpeg.com' }
-  s.source           = { :git => 'https://github.com/rajdegpeg/MyCocoapodsLibrary.git', :tag => s.version.to_s }
+  s.author           = { 'rajdegpeg' => 'rajendra.kadam@degpeg.com' }
+  s.source           = { :git => 'https://github.com/rajdegpeg/PrivatePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-  s.swift_version = '5.0'
-  s.source_files = 'MyCocoapodsLibrary/Classes/**/*'
+
+  s.source_files = 'PrivatePod/Classes/**/*'
   
-   s.resource_bundles = {
-     'Resources' => ['MyCocoapodsLibrary/Assets/*.png']
-   }
+  # s.resource_bundles = {
+  #   'PrivatePod' => ['PrivatePod/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'Alamofire'
-   s.dependency 'MBProgressHUD'
-   s.ios.dependency 'MBProgressHUD'
-   s.dependency 'Socket.IO-Client-Swift'
+  # s.dependency 'AFNetworking', '~> 2.3'
 end
