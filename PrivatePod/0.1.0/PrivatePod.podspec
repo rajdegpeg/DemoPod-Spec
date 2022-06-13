@@ -41,7 +41,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-    s.dependency 'Alamofire'
+  #  s.dependency 'Alamofire'
     s.dependency 'Socket.IO-Client-Swift', '~> 16.0'
     s.dependency 'MBProgressHUD', '~> 1.2'
     s.dependency 'Kingfisher', '~> 7.0'
